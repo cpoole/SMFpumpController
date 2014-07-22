@@ -1,5 +1,5 @@
-DEVICE     = atmega328p
-CLOCK      = 9830400
+DEVICE     = attiny2313
+CLOCK      = 1000000 
 PROGRAMMER = -c avrispmkii -P usb 
 OBJECTS    = main.o
 FUSES      = -U hfuse:w:0xd9:m -U lfuse:w:0xe0:m
